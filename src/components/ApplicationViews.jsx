@@ -15,7 +15,11 @@ export const ApplicationViews = () => {
         type: {
             id: 1,
             label: "Volcanic"
-        }
+        },
+        user: {
+            first_name: "First Name",
+            last_name: "Last Name"
+        },
     }])
 
     const fetchRocksFromAPI = async () => {
